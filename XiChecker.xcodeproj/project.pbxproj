@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B13E04441556BB11002F3EAE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B13E04421556BB11002F3EAE /* icon.png */; };
+		B13E04451556BB11002F3EAE /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B13E04431556BB11002F3EAE /* icon@2x.png */; };
+		B193969D155638A800B76DAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B193969C155638A800B76DAB /* UIKit.framework */; };
+		B193969F155638A800B76DAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B193969E155638A800B76DAB /* Foundation.framework */; };
+		B19396A1155638A800B76DAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19396A0155638A800B76DAB /* CoreGraphics.framework */; };
+		B19396A7155638A800B76DAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B19396A5155638A800B76DAB /* InfoPlist.strings */; };
+		B19396A9155638A800B76DAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B19396A8155638A800B76DAB /* main.m */; };
+		B19396AD155638A800B76DAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19396AC155638A800B76DAB /* AppDelegate.m */; };
+		B19396B0155638A800B76DAB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19396AE155638A800B76DAB /* MainStoryboard.storyboard */; };
+		B19396B3155638A800B76DAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19396B2155638A800B76DAB /* ViewController.m */; };
+		B19396BB155642E000B76DAB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19396BA155642E000B76DAB /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B13E04421556BB11002F3EAE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B13E04431556BB11002F3EAE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		B1939698155638A800B76DAB /* XiChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B193969C155638A800B76DAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B193969E155638A800B76DAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B19396A0155638A800B76DAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B19396A4155638A800B76DAB /* XiChecker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XiChecker-Info.plist"; sourceTree = "<group>"; };
+		B19396A8155638A800B76DAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B19396AA155638A800B76DAB /* XiChecker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XiChecker-Prefix.pch"; sourceTree = "<group>"; };
+		B19396AB155638A800B76DAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B19396AC155638A800B76DAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B19396B1155638A800B76DAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B19396B2155638A800B76DAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B19396B9155642E000B76DAB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B19396BA155642E000B76DAB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B19396C7155655C600B76DAB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = /Users/kawasaki/Documents/Xcode/XiChecker/XiChecker/ja.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		B19396C8155655C600B76DAB /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = /Users/kawasaki/Documents/Xcode/XiChecker/XiChecker/ja.lproj/MainStoryboard.storyboard; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1939695155638A800B76DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B193969D155638A800B76DAB /* UIKit.framework in Frameworks */,
+				B193969F155638A800B76DAB /* Foundation.framework in Frameworks */,
+				B19396A1155638A800B76DAB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B193968D155638A800B76DAB = {
+			isa = PBXGroup;
+			children = (
+				B19396A2155638A800B76DAB /* XiChecker */,
+				B193969B155638A800B76DAB /* Frameworks */,
+				B1939699155638A800B76DAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1939699155638A800B76DAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1939698155638A800B76DAB /* XiChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B193969B155638A800B76DAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B193969C155638A800B76DAB /* UIKit.framework */,
+				B193969E155638A800B76DAB /* Foundation.framework */,
+				B19396A0155638A800B76DAB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B19396A2155638A800B76DAB /* XiChecker */ = {
+			isa = PBXGroup;
+			children = (
+				B13E04421556BB11002F3EAE /* icon.png */,
+				B13E04431556BB11002F3EAE /* icon@2x.png */,
+				B19396AB155638A800B76DAB /* AppDelegate.h */,
+				B19396AC155638A800B76DAB /* AppDelegate.m */,
+				B19396AE155638A800B76DAB /* MainStoryboard.storyboard */,
+				B19396B9155642E000B76DAB /* LoginViewController.h */,
+				B19396BA155642E000B76DAB /* LoginViewController.m */,
+				B19396B1155638A800B76DAB /* ViewController.h */,
+				B19396B2155638A800B76DAB /* ViewController.m */,
+				B19396A3155638A800B76DAB /* Supporting Files */,
+			);
+			path = XiChecker;
+			sourceTree = "<group>";
+		};
+		B19396A3155638A800B76DAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B19396A4155638A800B76DAB /* XiChecker-Info.plist */,
+				B19396A5155638A800B76DAB /* InfoPlist.strings */,
+				B19396A8155638A800B76DAB /* main.m */,
+				B19396AA155638A800B76DAB /* XiChecker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1939697155638A800B76DAB /* XiChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19396B6155638A800B76DAB /* Build configuration list for PBXNativeTarget "XiChecker" */;
+			buildPhases = (
+				B1939694155638A800B76DAB /* Sources */,
+				B1939695155638A800B76DAB /* Frameworks */,
+				B1939696155638A800B76DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XiChecker;
+			productName = XiChecker;
+			productReference = B1939698155638A800B76DAB /* XiChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B193968F155638A800B76DAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B1939692155638A800B76DAB /* Build configuration list for PBXProject "XiChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B193968D155638A800B76DAB;
+			productRefGroup = B1939699155638A800B76DAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1939697155638A800B76DAB /* XiChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1939696155638A800B76DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19396A7155638A800B76DAB /* InfoPlist.strings in Resources */,
+				B19396B0155638A800B76DAB /* MainStoryboard.storyboard in Resources */,
+				B13E04441556BB11002F3EAE /* icon.png in Resources */,
+				B13E04451556BB11002F3EAE /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1939694155638A800B76DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19396A9155638A800B76DAB /* main.m in Sources */,
+				B19396AD155638A800B76DAB /* AppDelegate.m in Sources */,
+				B19396B3155638A800B76DAB /* ViewController.m in Sources */,
+				B19396BB155642E000B76DAB /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B19396A5155638A800B76DAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19396C7155655C600B76DAB /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B19396AE155638A800B76DAB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19396C8155655C600B76DAB /* ja */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19396B4155638A800B76DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B19396B5155638A800B76DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19396B7155638A800B76DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XiChecker/XiChecker-Prefix.pch";
+				INFOPLIST_FILE = "XiChecker/XiChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B19396B8155638A800B76DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XiChecker/XiChecker-Prefix.pch";
+				INFOPLIST_FILE = "XiChecker/XiChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1939692155638A800B76DAB /* Build configuration list for PBXProject "XiChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19396B4155638A800B76DAB /* Debug */,
+				B19396B5155638A800B76DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19396B6155638A800B76DAB /* Build configuration list for PBXNativeTarget "XiChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19396B7155638A800B76DAB /* Debug */,
+				B19396B8155638A800B76DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B193968F155638A800B76DAB /* Project object */;
+}
