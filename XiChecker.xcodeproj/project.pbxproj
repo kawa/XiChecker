@@ -36,8 +36,8 @@
 		B19396B2155638A800B76DAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B19396B9155642E000B76DAB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		B19396BA155642E000B76DAB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		B19396C7155655C600B76DAB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = /Users/kawasaki/Documents/Xcode/XiChecker/XiChecker/ja.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
-		B19396C8155655C600B76DAB /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = /Users/kawasaki/Documents/Xcode/XiChecker/XiChecker/ja.lproj/MainStoryboard.storyboard; sourceTree = "<absolute>"; };
+		B19396C7155655C600B76DAB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		B19396C8155655C600B76DAB /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/MainStoryboard.storyboard; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
