@@ -66,7 +66,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="/ 5,242,880KB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="nqi-zC-niv">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="/ 7,340,032KB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="nqi-zC-niv">
                                 <rect key="frame" x="171" y="130" width="111" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -98,19 +98,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="aE7-xU-MLr">
-                                <rect key="frame" x="44" y="419" width="233" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="busyIcon" destination="aFq-en-63k" id="wRZ-EE-Fvw"/>
-                        <outlet property="currentId" destination="aE7-xU-MLr" id="LkJ-fY-lqx"/>
                         <outlet property="data1" destination="WvS-Me-4Al" id="XCg-5q-fUW"/>
                         <outlet property="data2" destination="g3c-TZ-mlO" id="6Us-Xt-5eD"/>
                         <outlet property="statusLabel" destination="VEt-0N-0h0" id="TfQ-jf-dXJ"/>
@@ -206,7 +198,6 @@
             <relationships>
                 <relationship kind="action" name="updateData:"/>
                 <relationship kind="outlet" name="busyIcon" candidateClass="UIActivityIndicatorView"/>
-                <relationship kind="outlet" name="currentId" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="data1" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="data2" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="statusLabel" candidateClass="UILabel"/>
