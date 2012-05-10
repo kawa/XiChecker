@@ -18,6 +18,12 @@
 		B19396BB155642E000B76DAB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19396BA155642E000B76DAB /* LoginViewController.m */; };
 		B1EFBEA71556C20400C9AC45 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EFBEA51556C20400C9AC45 /* MainStoryboard.storyboard */; };
 		B1EFBEAA1556C21200C9AC45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1EFBEA81556C21200C9AC45 /* InfoPlist.strings */; };
+		B1EFBECA155C241C00C9AC45 /* Reload.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EFBEC9155C241C00C9AC45 /* Reload.png */; };
+		B1EFBECC155C242200C9AC45 /* Reload_h.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EFBECB155C242200C9AC45 /* Reload_h.png */; };
+		B1EFBECE155C289E00C9AC45 /* Config.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EFBECD155C289E00C9AC45 /* Config.png */; };
+		B1EFBED0155C28A300C9AC45 /* Config_h.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EFBECF155C28A300C9AC45 /* Config_h.png */; };
+		B1EFBED2155C2C0700C9AC45 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EFBED1155C2C0700C9AC45 /* Default.png */; };
+		B1EFBED4155C2C0A00C9AC45 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EFBED3155C2C0A00C9AC45 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,12 @@
 		B19396BA155642E000B76DAB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		B1EFBEA61556C20400C9AC45 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B1EFBEA91556C21200C9AC45 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1EFBEC9155C241C00C9AC45 /* Reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reload.png; sourceTree = "<group>"; };
+		B1EFBECB155C242200C9AC45 /* Reload_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reload_h.png; sourceTree = "<group>"; };
+		B1EFBECD155C289E00C9AC45 /* Config.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Config.png; sourceTree = "<group>"; };
+		B1EFBECF155C28A300C9AC45 /* Config_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Config_h.png; sourceTree = "<group>"; };
+		B1EFBED1155C2C0700C9AC45 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		B1EFBED3155C2C0A00C9AC45 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +97,14 @@
 			isa = PBXGroup;
 			children = (
 				B1EFBEA51556C20400C9AC45 /* MainStoryboard.storyboard */,
+				B1EFBED1155C2C0700C9AC45 /* Default.png */,
+				B1EFBED3155C2C0A00C9AC45 /* Default@2x.png */,
 				B13E04421556BB11002F3EAE /* icon.png */,
 				B13E04431556BB11002F3EAE /* icon@2x.png */,
+				B1EFBEC9155C241C00C9AC45 /* Reload.png */,
+				B1EFBECB155C242200C9AC45 /* Reload_h.png */,
+				B1EFBECD155C289E00C9AC45 /* Config.png */,
+				B1EFBECF155C28A300C9AC45 /* Config_h.png */,
 				B19396AB155638A800B76DAB /* AppDelegate.h */,
 				B19396AC155638A800B76DAB /* AppDelegate.m */,
 				B19396B9155642E000B76DAB /* LoginViewController.h */,
@@ -164,6 +182,12 @@
 				B13E04451556BB11002F3EAE /* icon@2x.png in Resources */,
 				B1EFBEA71556C20400C9AC45 /* MainStoryboard.storyboard in Resources */,
 				B1EFBEAA1556C21200C9AC45 /* InfoPlist.strings in Resources */,
+				B1EFBECA155C241C00C9AC45 /* Reload.png in Resources */,
+				B1EFBECC155C242200C9AC45 /* Reload_h.png in Resources */,
+				B1EFBECE155C289E00C9AC45 /* Config.png in Resources */,
+				B1EFBED0155C28A300C9AC45 /* Config_h.png in Resources */,
+				B1EFBED2155C2C0700C9AC45 /* Default.png in Resources */,
+				B1EFBED4155C2C0A00C9AC45 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
