@@ -103,6 +103,8 @@
                         <outlet property="busyIcon" destination="aFq-en-63k" id="wRZ-EE-Fvw"/>
                         <outlet property="data1" destination="WvS-Me-4Al" id="XCg-5q-fUW"/>
                         <outlet property="data2" destination="g3c-TZ-mlO" id="6Us-Xt-5eD"/>
+                        <outlet property="labelMaxPerDays" destination="LdR-t3-Bf9" id="Zxa-Zr-Y8s"/>
+                        <outlet property="labelMaxPerMonth" destination="nqi-zC-niv" id="YaD-yo-a9j"/>
                         <outlet property="statusLabel" destination="VEt-0N-0h0" id="TfQ-jf-dXJ"/>
                     </connections>
                 </viewController>
@@ -204,6 +206,8 @@
                 <relationship kind="outlet" name="busyIcon" candidateClass="UIActivityIndicatorView"/>
                 <relationship kind="outlet" name="data1" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="data2" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelMaxPerDays" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelMaxPerMonth" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="statusLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
