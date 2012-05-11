@@ -159,7 +159,7 @@
 			[self login];
 		} else {
 			[statusLabel setText:@"ログインしていません"];
-			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ログインに失敗しました" message:@"IDまたはパスワードが違います。設定画面で正しいIDとパスワードを設定してください。" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ログインに失敗しました" message:@"IDまたはパスワードに誤りがあります。ログイン設定で正しいIDとパスワードを設定してください。" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 			[alert show];
 		}
 	} else {
