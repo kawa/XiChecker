@@ -19,5 +19,7 @@
 @property (retain, nonatomic) IBOutlet UILabel *statusLabel;
 @property (retain, nonatomic) IBOutlet UILabel *labelMaxPerMonth;
 @property (retain, nonatomic) IBOutlet UILabel *labelMaxPerDays;
+@property (retain, nonatomic) IBOutlet UIProgressView *meter1;
+@property (retain, nonatomic) IBOutlet UIProgressView *meter2;
 
 @end

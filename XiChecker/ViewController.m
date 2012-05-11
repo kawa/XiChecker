@@ -15,11 +15,13 @@
 @synthesize statusLabel;
 @synthesize labelMaxPerMonth;
 @synthesize labelMaxPerDays;
+@synthesize meter1;
+@synthesize meter2;
 @synthesize data1;
 @synthesize data2;
 @synthesize busyIcon;
 
-#define OFFLINE_DEBUG (1)
+#define OFFLINE_DEBUG (0)
 
 - (void)viewDidLoad
 {
@@ -29,6 +31,7 @@
 	m_maxKBperMonth = 7340032;
 	m_maxKBperDays = 1048576;
 	[self loadAllData];
+	[self updateMeter];
 }
 
 - (void)viewDidUnload
@@ -39,6 +42,8 @@
 	[self setStatusLabel:nil];
 	[self setLabelMaxPerMonth:nil];
 	[self setLabelMaxPerDays:nil];
+	[self setMeter1:nil];
+	[self setMeter2:nil];
 	[super viewDidUnload];
 	// Release any retained subviews of the main view.
 }
@@ -55,6 +60,8 @@
 	[statusLabel release];
 	[labelMaxPerMonth release];
 	[labelMaxPerDays release];
+	[meter1 release];
+	[meter2 release];
 	[super dealloc];
 }
 
@@ -73,6 +80,15 @@
 	[formatter setDateStyle:NSDateFormatterShortStyle];
 	[formatter setTimeStyle:NSDateFormatterShortStyle];
 	[statusLabel setText:[NSString stringWithFormat:@"%@ 更新",[formatter stringFromDate:now]]];
+}
+
+- (void)updateMeter {
+	NSInteger dataInt1 = [self dataStrToInt:[data1 text]];
+	float percentOfUse1 = (float)dataInt1 / (float)m_maxKBperMonth;
+	[meter1 setProgress:percentOfUse1 animated:YES];
+	NSInteger dataInt2 = [self dataStrToInt:[data2 text]];
+	float percentOfUse2 = (float)dataInt2 / (float)m_maxKBperMonth;
+	[meter2 setProgress:percentOfUse2 animated:YES];
 }
 
 - (void)saveAllData {
@@ -165,6 +181,7 @@
 	} else {
 //		[statusLabel setText:@""];
 		[self updateDate];
+		[self updateMeter];
 		[self saveAllData];
 	}
 }
