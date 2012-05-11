@@ -100,21 +100,24 @@
 
 - (void)loadAllData {
 	NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
-	NSMutableString *data1Str = [ud objectForKey:@"UserData1"];
+	NSString *data1Str = [ud objectForKey:@"UserData1"];
 	if (![data1Str length]) {
-		[data1Str setString:@"0KB"];
+		[data1 setText:@"0KB"];
+	} else {
+		[data1 setText:data1Str];
 	}
-	[data1 setText:data1Str];
-	NSMutableString *data2Str = [ud objectForKey:@"UserData2"];
+	NSString *data2Str = [ud objectForKey:@"UserData2"];
 	if (![data2Str length]) {
-		[data2Str setString:@"0KB"];
+		[data2 setText:@"0KB"];
+	} else {
+		[data2 setText:data2Str];
 	}
-	[data2 setText:data2Str];
-	NSMutableString *statusLabelStr = [ud objectForKey:@"UserStatusLabel"];
+	NSString *statusLabelStr = [ud objectForKey:@"UserStatusLabel"];
 	if (![statusLabelStr length]) {
-		[statusLabelStr setString:@"ログインしていません"];
+		[statusLabel setText:@"ログインしていません"];
+	} else {
+		[statusLabel setText:statusLabelStr];
 	}
-	[statusLabel setText:statusLabelStr];
 }
 
 - (void)updateTask {
